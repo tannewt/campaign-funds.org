@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<h2>Top Contributors since 2009</h2>
+<table>
+{% for row in sql("select contributor_name, SUM(amount) as total from Contributions_to_Candidates_and_Political_Committees group by contributor_name order by total desc limit 10") %}
+    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% endfor %}
+</table>
+
+<h2>Top Contributors since 2020</h2>
+<table>
+{% for row in sql("select contributor_name, SUM(amount) as total from Contributions_to_Candidates_and_Political_Committees where strftime('%Y', receipt_date) >= 2020 group by contributor_name order by total desc limit 10") %}
+    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% endfor %}
+</table>
+
+<h2>Top benefactors since 2009</h2>
+<table>
+{% for row in sql("select filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees group by filer_id order by total DESC limit 10") %}
+    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% endfor %}
+</table>
+
+</body>
+</html>

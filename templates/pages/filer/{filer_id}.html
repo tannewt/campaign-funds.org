@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+{% for row in sql("select election_year, filer_name, office, jurisdiction, political_committee_type, position, url from Candidate_and_Committee_Registrations where filer_id = ? order by election_year desc limit 1", [filer_id]) %}
+    <h1>{{ row["filer_name"]}}</h1>
+
+    <p>Committee Type: {{ row["political_committee_type"] }}</p>
+    <p>{{ row["position"] }} {{ row["office"] }} {{ row["jurisdiction"] }}</p>
+    <a href="{{ row["url"] }}">Registration</a> | 
+{% endfor %}
+
+<a href="/contributions/Candidate_and_Committee_Registrations?_sort=rowid&filer_id__exact={{ filer_id }}">All Registrations</a>
+
+<h2>Top Contributors since 2009</h2>
+<table>
+{% for row in sql("select contributor_name, SUM(amount) as total from Contributions_to_Candidates_and_Political_Committees where filer_id = ? group by contributor_name order by total desc limit 10", [filer_id]) %}
+    <tr><td class="name"><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td class="dollars">{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% endfor %}
+</table>
+
+<h2>Most recent expenditures</h2>
+<table>
+{% for row in sql("select id, expenditure_date, recipient_name, description, amount, url from Expenditures_by_Candidates_and_Political_Committees where filer_id = ? order by expenditure_date DESC limit 20", [filer_id]) %}
+    <tr><td>{{ row["expenditure_date"] }}</td><td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td><td>{{ row["recipient_name"] }} - {{ row["description"] }}</a></td></tr>
+{% endfor %}
+</table>
+
+</body>
+</html>

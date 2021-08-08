@@ -1,0 +1,23 @@
+title: Status Quo
+databases:
+    contributions:
+        tables:
+          Contributions_to_Candidates_and_Political_Committees:
+            size: 20
+            sort_desc: "receipt_date"
+            source: "Washington PDC"
+            source_url: "https://data.wa.gov/Politics/Contributions-to-Candidates-and-Political-Committe/kv7h-kjye/data"
+
+        queries:
+          largest_contributors:
+              sql: |-
+                  select contributor_name, SUM(amount) as total from
+                  Contributions_to_Candidates_and_Political_Committees group by
+                  contributor_name order by total desc
+              title: "Largest contributors"
+          largest_receipient:
+              sql: |-
+                  select filer_name, filer_id, sum(amount) as total from
+                  Contributions_to_Candidates_and_Political_Committees group by
+                  filer_id order by total DESC
+              title: "Largest recipients"

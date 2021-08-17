@@ -1,23 +1,23 @@
 <html>
 <body>
 
-<h2>Top Contributors since 2009</h2>
+<h2>Top fundraisers for 2021 elections</h2>
 <table>
-{% for row in sql("select contributor_name, SUM(amount) as total from Contributions_to_Candidates_and_Political_Committees group by contributor_name order by total desc limit 10") %}
-    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% for row in sql("select filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees, filer_name WHERE filer_name_id = filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 100") %}
+    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>
 
-<h2>Top Contributors since 2020</h2>
+<h2>Top Contributors for 2021</h2>
 <table>
-{% for row in sql("select contributor_name, SUM(amount) as total from Contributions_to_Candidates_and_Political_Committees where strftime('%Y', receipt_date) >= 2020 group by contributor_name order by total desc limit 10") %}
-    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% for row in sql("select contributor_name, total_amount from contribution_totals where election_year = 2021 order by total_amount desc limit 10") %}
+    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total_amount"]) }}</td></tr>
 {% endfor %}
 </table>
 
-<h2>Top benefactors since 2009</h2>
+<h2>Top fundraisers for 2022 elections</h2>
 <table>
-{% for row in sql("select filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees group by filer_id order by total DESC limit 10") %}
+{% for row in sql("select filer_name.filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees, filer_name WHERE filer_name_id = filer_name.id and election_year = 2022 group by filer_id order by total DESC limit 100") %}
     <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>

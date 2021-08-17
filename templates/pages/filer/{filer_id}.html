@@ -21,12 +21,21 @@
 {% endfor %}
 </table>
 
-<h2>Most recent expenditures</h2>
+<h2>Most recent contributions</h2>
 <table>
-{% for row in sql("select id, expenditure_date, recipient_name, description, amount, url from Expenditures_by_Candidates_and_Political_Committees where filer_id = ? order by expenditure_date DESC limit 20", [filer_id]) %}
-    <tr><td>{{ row["expenditure_date"] }}</td><td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td><td>{{ row["recipient_name"] }} - {{ row["description"] }}</a></td></tr>
+{% for row in sql("select rowid, receipt_date, contributor_name, contributor_occupation, contributor_employer_name, amount, url from Contributions_to_Candidates_and_Political_Committees where filer_id = ? order by receipt_date DESC limit 20", [filer_id]) %}
+    <tr><td>{{ row["receipt_date"] }}</td><td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a> - {{ row["contributor_occupation"] }} at <a href="/employer/{{ row["contributor_employer_name"] }}">{{ row["contributor_employer_name"] }}</a> <a href="/contributions/Contributions_to_Candidates_and_Political_Committees/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a></td></tr>
 {% endfor %}
 </table>
+<a href="/contributions/Contributions_to_Candidates_and_Political_Committees?filer_id__exact={{ filer_id }}&_sort_desc=receipt_date">All Contributions</a>
+
+<h2>Most recent expenditures</h2>
+<table>
+{% for row in sql("select rowid, expenditure_date, recipient_name, description, amount, url from Expenditures_by_Candidates_and_Political_Committees where filer_id = ? order by expenditure_date DESC limit 20", [filer_id]) %}
+    <tr><td>{{ row["expenditure_date"] }}</td><td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td><td>{{ row["recipient_name"] }} - {{ row["description"] }} <a href="/contributions/Expenditures_by_Candidates_and_Political_Committees/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a></td></tr>
+{% endfor %}
+</table>
+<a href="/contributions/Expenditures_by_Candidates_and_Political_Committees?filer_id__exact={{ filer_id }}&_sort_desc=expenditure_date">All Expenditures</a>
 
 </body>
 </html>

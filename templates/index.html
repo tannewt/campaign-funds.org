@@ -3,7 +3,7 @@
 
 <h2>Top fundraisers for 2021 elections</h2>
 <table>
-{% for row in sql("select filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees, filer_name WHERE filer_name_id = filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 100") %}
+{% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 100") %}
     <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>
@@ -17,10 +17,13 @@
 
 <h2>Top fundraisers for 2022 elections</h2>
 <table>
-{% for row in sql("select filer_name.filer_name, filer_id, sum(amount) as total from Contributions_to_Candidates_and_Political_Committees, filer_name WHERE filer_name_id = filer_name.id and election_year = 2022 group by filer_id order by total DESC limit 100") %}
+{% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id and election_year = 2022 group by filer_id order by total DESC limit 100") %}
     <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>
+
+<hr/>
+Contribute to this site <a href="https://github.com/tannewt/campaign-funds.org">on GitHub</a>.
 
 </body>
 </html>

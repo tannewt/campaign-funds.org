@@ -1,6 +1,6 @@
-<html>
-<body>
-
+{% extends "base.html" %}
+{% block title %}Campaign Funds{% endblock %}
+{% block body %}
 <h2>Top fundraisers for 2021 elections</h2>
 <table>
 {% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 100") %}
@@ -22,8 +22,4 @@
 {% endfor %}
 </table>
 
-<hr/>
-Created by @tannewt. Contribute <a href="https://github.com/tannewt/campaign-funds.org">on GitHub</a>.
-
-</body>
-</html>
+{% endblock %}

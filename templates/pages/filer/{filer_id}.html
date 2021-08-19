@@ -1,8 +1,6 @@
-<html>
-<head>
-  <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}{{ filer_id }}{% endblock %}
+{% block body %}
 
 {% for row in sql("select election_year, filer_name, office, jurisdiction, political_committee_type, position, url from registrations, registrations_filer_name where filer_name_id = registrations_filer_name.id AND filer_id = ? order by election_year desc limit 1", [filer_id]) %}
     <h1>{{ row["filer_name"]}}</h1>
@@ -37,8 +35,4 @@
 </table>
 <a href="/raw/expenditures?filer_id__exact={{ filer_id }}&_sort_desc=expenditure_date">All Expenditures</a>
 
-<hr/>
-Created by @tannewt. Contribute <a href="https://github.com/tannewt/campaign-funds.org">on GitHub</a>.
-
-</body>
-</html>
+{% endblock %}

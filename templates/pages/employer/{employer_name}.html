@@ -1,5 +1,6 @@
-<html>
-<body>
+{% extends "base.html" %}
+{% block title %}{{ employer_name }}{% endblock %}
+{% block body %}
 
 <h2>Top benefactors since 2009</h2>
 <table>
@@ -25,8 +26,4 @@ as total from contributions where contributor_employer_name = ? group by year or
 
 <a href="/raw/contributions?contributor_employer_name__exact={{ employer_name }}&_sort_desc=receipt_date">All donations</a>
 
-<hr/>
-Created by @tannewt. Contribute <a href="https://github.com/tannewt/campaign-funds.org">on GitHub</a>.
-
-</body>
-</html>
+{% endblock %}

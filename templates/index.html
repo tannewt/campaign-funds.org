@@ -3,22 +3,36 @@
 {% block body %}
 <h2>Top fundraisers for 2021 elections</h2>
 <table>
+{% set ns = namespace(top_total=0) %}
 {% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 100") %}
-    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% if loop.first %}
+{% set ns.top_total = row["total"] %}
+{% endif %}
+    <tr>
+        <td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
+        <td class="bar">
+            <div class="progress">
+                {% for code in sql("select code_id, SUM(amount) as total from contributions where filer_id = ? AND election_year = 2021 group by code_id order by total DESC", [row["filer_id"]]) %}
+                  <div class="progress-bar contributor-code-{{ code["code_id"] }}" role="progressbar" style="width: {{  100 * code["total"] / ns.top_total }}%" aria-valuenow="{{  100 * code["total"] / ns.top_total }}" aria-valuemin="0" aria-valuemax="100"></div>
+                  {% endfor %}
+            </div>
+        </td>
+    </tr>
 {% endfor %}
 </table>
 
 <h2>Top Contributors for 2021</h2>
 <table>
 {% for row in sql("select contributor_name, total_amount from contribution_totals where election_year = 2021 order by total_amount desc limit 10") %}
-    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total_amount"]) }}</td></tr>
+    <tr><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td><td class="dollars font-monospace">{{ "${:,.2f}".format(row["total_amount"]) }}</td></tr>
 {% endfor %}
 </table>
 
 <h2>Top fundraisers for 2022 elections</h2>
 <table>
 {% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id and election_year = 2022 group by filer_id order by total DESC limit 100") %}
-    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>
 

@@ -6,3 +6,52 @@
     overflow: hidden;
     white-space: nowrap;
 }
+
+table {
+    width:  100%;
+}
+
+td.bar {
+    max-width: 99%;
+    min-width: 20%;
+}
+
+/* Individual - green */
+.progress-bar.contributor-code-1 {
+    background-color: #198754;
+}
+
+/* Other - cyan*/
+.progress-bar.contributor-code-2 {
+    background-color: #0dcaf0;
+}
+
+/* Business - orange */
+.progress-bar.contributor-code-3 {
+    background-color: #fd7e14;
+}
+
+/* Union - purple */
+.progress-bar.contributor-code-4 {
+    background-color: #6f42c1;
+}
+
+/* PAC - indigo */
+.progress-bar.contributor-code-5 {
+    background-color: #6610f2;
+}
+
+/* Party - pink */
+.progress-bar.contributor-code-6 {
+    background-color: #d63384;
+}
+
+/* Caucus - yellow */
+.progress-bar.contributor-code-7 {
+    background-color: #ffc107;
+}
+
+/* Self - gray -700 */
+.progress-bar.contributor-code-8 {
+    background-color: #495057;
+}

@@ -112,7 +112,7 @@ for filename in source_csvs:
                 i += 1
                 #break
 
-con.execute("CREATE TABLE contribution_totals AS SELECT contributor_name, election_year, SUM(amount) as total_amount FROM contributions GROUP BY contributor_name, election_year")
+con.execute("CREATE TABLE contribution_totals AS SELECT contributor_name, code_id, election_year, SUM(amount) as total_amount FROM contributions GROUP BY contributor_name, election_year")
 con.commit()
 
 con.commit()

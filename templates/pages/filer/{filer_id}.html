@@ -1,8 +1,9 @@
 {% extends "cf_base.html" %}
 {% import 'macros.html' as macros %}
 {% block title %}{{ filer_id }}{% endblock %}
-{% block body %}
 
+{% block body %}
+{{ custom_header("cache-control", "max-age=3600") }}
 {% for row in sql("select election_year, filer_type_id, filer_name, office, jurisdiction, political_committee_type, position, url from registrations, registrations_filer_name where filer_name_id = registrations_filer_name.id AND filer_id = ? order by election_year desc limit 1", [filer_id]) %}
     <h1>{{ ["","📢","🧑"][row["filer_type_id"]] | default("?")}}{{ row["filer_name"]}}</h1>
 
@@ -18,7 +19,7 @@
 {% for row in sql("select contributor_name, code_id, SUM(amount) as total from contributions where filer_id = ? group by contributor_name order by total desc limit 10", [filer_id]) %}
     <tr>
         <td class="name">{{ macros.contributor(row["code_id"], row["contributor_name"]) }}</td>
-        <td class="dollars">{{ "${:,.2f}".format(row["total"]) }}</td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
     </tr>
 {% endfor %}
 </table>
@@ -28,7 +29,7 @@
 {% for row in sql("select rowid, receipt_date, cash_or_in_kind_id, contributor_name, contributor_occupation, contributor_employer_name, amount, url, code_id from contributions where filer_id = ? order by receipt_date DESC limit 20", [filer_id]) %}
     <tr>
         <td>{{ row["receipt_date"] }}</td>
-        <td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["amount"]) }}</td>
         <td>
             {% if row["cash_or_in_kind_id"] == 2 %}
             🎁<span class="d-none d-lg-inline">in-kind</span>
@@ -49,7 +50,10 @@
 <h2>Most recent expenditures</h2>
 <table>
 {% for row in sql("select rowid, expenditure_date, recipient_name, description, amount, url from expenditures where filer_id = ? order by expenditure_date DESC limit 20", [filer_id]) %}
-    <tr><td>{{ row["expenditure_date"] }}</td><td class="dollars">{{ "${:,.2f}".format(row["amount"]) }}</td><td>{{ row["recipient_name"] }} - {{ row["description"] }} <a href="/raw/expenditures/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a></td></tr>
+    <tr>
+        <td>{{ row["expenditure_date"] }}</td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["amount"]) }}</td>
+        <td>{{ row["recipient_name"] }} - {{ row["description"] }} <a href="/raw/expenditures/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a></td></tr>
 {% endfor %}
 </table>
 <a href="/raw/expenditures?filer_id__exact={{ filer_id }}&_sort_desc=expenditure_date">All Expenditures</a>

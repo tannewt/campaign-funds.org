@@ -1,11 +1,15 @@
 {% extends "cf_base.html" %}
+{% import 'macros.html' as macros %}
 {% block title %}{{ employer_name }}{% endblock %}
 {% block body %}
 
 <h2>Top benefactors since 2009</h2>
 <table>
-{% for row in sql("select filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_employer_name = ? group by filer_id order by total DESC limit 10", [employer_name]) %}
-    <tr><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+{% for row in sql("select type_id, filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_employer_name = ? group by filer_id order by total DESC limit 10", [employer_name]) %}
+    <tr>
+        <td>{{ macros.filer(row["type_id"], row["filer_id"], row["filer_name"]) }}</td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
+    </tr>
 {% endfor %}
 </table>
 
@@ -13,14 +17,22 @@
 <table>
 {% for row in sql("select strftime('%Y', receipt_date) as year, SUM(amount)
 as total from contributions where contributor_employer_name = ? group by year order by year DESC limit 50", [employer_name]) %}
-    <tr><td>{{ row["year"] }}</td><td>{{ "${:,.2f}".format(row["total"]) }}</td></tr>
+    <tr>
+        <td>{{ row["year"] }}</td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
+    </tr>
 {% endfor %}
 </table>
 
 <h2>Most recent donations</h2>
 <table>
-{% for row in sql("select receipt_date, filer_name, filer_id, contributor_name, amount from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_employer_name = ? order by receipt_date DESC limit 20", [employer_name]) %}
-    <tr><td>{{ row["receipt_date"] }}</td><td><a href="/filer/{{ row["filer_id"] }}">{{ row["filer_name"] }}</a></td><td>{{ "${:,.2f}".format(row["amount"]) }}</td><td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td></tr>
+{% for row in sql("select receipt_date, type_id, filer_name, filer_id, contributor_name, amount from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_employer_name = ? order by receipt_date DESC limit 20", [employer_name]) %}
+    <tr>
+        <td>{{ row["receipt_date"] }}</td>
+        <td>{{ macros.filer(row["type_id"], row["filer_id"], row["filer_name"]) }}</a></td>
+        <td class="dollars font-monospace">{{ "${:,.2f}".format(row["amount"]) }}</td>
+        <td><a href="/donor/{{ row["contributor_name"] }}">{{ row["contributor_name"] }}</a></td>
+    </tr>
 {% endfor %}
 </table>
 

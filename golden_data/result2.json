@@ -1,0 +1,5505 @@
+{
+  "version": 1,
+  "pairs": [
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILLSIE ROGER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILLSIE ROGER",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6236 SYCAMORE AVENUE, NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6236 SYCAMORE AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 4,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 1203650
+        },
+        "b": {
+          "dataset": null,
+          "record": 86597
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON BENJAMIN J",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON BENJAMIN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2629 NW 60TH ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2929 NW 6OTH STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3890775
+        },
+        "b": {
+          "dataset": null,
+          "record": 4089398
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW #615",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW # 615",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4419549
+        },
+        "b": {
+          "dataset": null,
+          "record": 5252378
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN J",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW, UNIT 615",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW # 615",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3992956
+        },
+        "b": {
+          "dataset": null,
+          "record": 5252378
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN J",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON CARMEN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW, UNIT 615",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW #615",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3992956
+        },
+        "b": {
+          "dataset": null,
+          "record": 4419549
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON KATHLEEN B.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON KATHLEEN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "4421 BAKER AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "4421 BAKER AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 563601
+        },
+        "b": {
+          "dataset": null,
+          "record": 4839435
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON PETER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON PETER D",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1400 NW 63RD ST # 5",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1400 NW 63RD ST, APT 5",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3237747
+        },
+        "b": {
+          "dataset": null,
+          "record": 2785117
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON PETER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON PETER D",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1400 NW 63RD ST # 5",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1400 NW 63RD ST # 5",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3237747
+        },
+        "b": {
+          "dataset": null,
+          "record": 3232215
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WILSON PETER A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WILSON PETER",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "4212 BAKER AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "4212 BAKER AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4043957
+        },
+        "b": {
+          "dataset": null,
+          "record": 360392
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WINCHESTER SIMON",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WINCHESTER JERIANN R",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5037 BAKER AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5037 BAKER AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3254666
+        },
+        "b": {
+          "dataset": null,
+          "record": 3256505
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WINKLER REID",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WINKLER REID",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "315 NW 54TH ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "314 NW 54TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 4,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4789883
+        },
+        "b": {
+          "dataset": null,
+          "record": 1367452
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WINKLER REID",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WINKLER REID J",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "315 NW 54TH ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "314 NW 54TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4789883
+        },
+        "b": {
+          "dataset": null,
+          "record": 3097881
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WINNERS MARC A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WINNERS MARC",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2647 NW 59TH ST # A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2647A NW 59TH ST # A",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3113890
+        },
+        "b": {
+          "dataset": null,
+          "record": 5053201
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "819 NW   60TH STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "819 NW 60TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 4,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 1930451
+        },
+        "b": {
+          "dataset": null,
+          "record": 3507601
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "819 NW 60TH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "819 NW 60TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 4,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 910445
+        },
+        "b": {
+          "dataset": null,
+          "record": 3507601
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WIRTH BRUCE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "819 NW 60TH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "819 NW   60TH STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 910445
+        },
+        "b": {
+          "dataset": null,
+          "record": 1930451
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WISSWAESSER GABRIEL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WISSWAESSER GABRIEL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2665 NW 63RD ST, APT 5",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2665 NW 63RD ST # 5",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2901922
+        },
+        "b": {
+          "dataset": null,
+          "record": 3802678
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE D",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST, # A",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2785436
+        },
+        "b": {
+          "dataset": null,
+          "record": 3067180
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE D",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE D",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST # A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST, # A",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3234884
+        },
+        "b": {
+          "dataset": null,
+          "record": 3067180
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE D",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOIAK JOANNE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST # A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2629 NW 56TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3234884
+        },
+        "b": {
+          "dataset": null,
+          "record": 2785436
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOLFE ERIC R",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOLFE ERIC",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1743 NW 62ND ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1743 NW 62 ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3884382
+        },
+        "b": {
+          "dataset": null,
+          "record": 3343907
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST #1",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3248280
+        },
+        "b": {
+          "dataset": null,
+          "record": 4406106
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA M",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST APT 1",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2785086
+        },
+        "b": {
+          "dataset": null,
+          "record": 4406106
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA M",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOLFSTONE MELISSA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST APT 1",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1716 NW 59TH ST #1",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2785086
+        },
+        "b": {
+          "dataset": null,
+          "record": 3248280
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOOD CYNTHIA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOOD CURTIS",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2442 NW MARKET ST APT 41",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2442 NW MARKET ST APT 41",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 782720
+        },
+        "b": {
+          "dataset": null,
+          "record": 162906
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOOD JASON T",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOOD JASON",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6104 14TH AVE NW # 5",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6104 14TH AVE NW APT 5",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4239148
+        },
+        "b": {
+          "dataset": null,
+          "record": 1498588
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOODRUFF ELIZABETH G",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOODRUFF ELIZABETH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "926 NW MARKET  ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "926 NW MARKET ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3930304
+        },
+        "b": {
+          "dataset": null,
+          "record": 3078324
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOOLF SUSAN",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOOLF SUSAN",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "314 NW 60TH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "314 NW 60TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 614563
+        },
+        "b": {
+          "dataset": null,
+          "record": 1037602
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WOOLLEY DEBORAH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WOOLLEY DEBORAH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3026 NW MARKET ST, APT 3",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3026 NW MARKET ST # 3",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3017023
+        },
+        "b": {
+          "dataset": null,
+          "record": 3362404
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORLEY SARAH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORLEY SARAH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2428 NW MARKET ST, APT 391",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2428 NW MARKET ST #391",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4159314
+        },
+        "b": {
+          "dataset": null,
+          "record": 2813100
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NORTHWEST 52ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 7,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3463235
+        },
+        "b": {
+          "dataset": null,
+          "record": 1483740
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER J",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NORTHWEST 52ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3463235
+        },
+        "b": {
+          "dataset": null,
+          "record": 1808885
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 7,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2499559
+        },
+        "b": {
+          "dataset": null,
+          "record": 1483740
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER J",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2499559
+        },
+        "b": {
+          "dataset": null,
+          "record": 1808885
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NORTHWEST 52ND STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2499559
+        },
+        "b": {
+          "dataset": null,
+          "record": 3463235
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER JEAN",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WORTHLEY HEATHER J",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "602 NW 52ND STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 812917
+        },
+        "b": {
+          "dataset": null,
+          "record": 1808885
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3371448
+        },
+        "b": {
+          "dataset": null,
+          "record": 3369436
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW #348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4211727
+        },
+        "b": {
+          "dataset": null,
+          "record": 3369436
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW #348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4211727
+        },
+        "b": {
+          "dataset": null,
+          "record": 3371448
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW, APT 348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2948931
+        },
+        "b": {
+          "dataset": null,
+          "record": 3369436
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW, APT 348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW # 348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2948931
+        },
+        "b": {
+          "dataset": null,
+          "record": 3371448
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA N",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT ASIA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW, APT 348",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5450 LEARY AVE NW #348",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2948931
+        },
+        "b": {
+          "dataset": null,
+          "record": 4211727
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT CHARLES S.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI H.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 8,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2167818
+        },
+        "b": {
+          "dataset": null,
+          "record": 839691
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE L",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4807298
+        },
+        "b": {
+          "dataset": null,
+          "record": 2953466
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE L",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4802823
+        },
+        "b": {
+          "dataset": null,
+          "record": 2953466
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT KATHERINE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1533 NW 63RD",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4802823
+        },
+        "b": {
+          "dataset": null,
+          "record": 4807298
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI H.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 8,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2928992
+        },
+        "b": {
+          "dataset": null,
+          "record": 839691
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI H",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI H.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 8,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2821353
+        },
+        "b": {
+          "dataset": null,
+          "record": 839691
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI H",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT MARNI",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5636 2ND AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2821353
+        },
+        "b": {
+          "dataset": null,
+          "record": 2928992
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARRELL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARREL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 1435371
+        },
+        "b": {
+          "dataset": null,
+          "record": 1905725
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARRELL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARREL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 244234
+        },
+        "b": {
+          "dataset": null,
+          "record": 1905725
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARRELL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WRIGHT TARRELL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3426 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 244234
+        },
+        "b": {
+          "dataset": null,
+          "record": 1435371
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1236 NW CANAL ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 5,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2486861
+        },
+        "b": {
+          "dataset": null,
+          "record": 1650890
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1236 NW CANAL ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 5,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2530179
+        },
+        "b": {
+          "dataset": null,
+          "record": 1650890
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2530179
+        },
+        "b": {
+          "dataset": null,
+          "record": 2486861
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1236 NW CANAL ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 5,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2511930
+        },
+        "b": {
+          "dataset": null,
+          "record": 1650890
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2511930
+        },
+        "b": {
+          "dataset": null,
+          "record": 2486861
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "WSDA",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "126 NW CANAL ST.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2511930
+        },
+        "b": {
+          "dataset": null,
+          "record": 2530179
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Waite Christina",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Waite Christina R",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "702 NW 58th St",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "702 NW 58th St",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5178673
+        },
+        "b": {
+          "dataset": null,
+          "record": 5151354
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Weigand Lina C",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Weigand Dave",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "4226 1st Ave NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "4226 1st Ave NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5249157
+        },
+        "b": {
+          "dataset": null,
+          "record": 5249156
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Weigand Lina C",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Weigand Henry C",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "4226 1st Ave NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "4226 1st Ave NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5249157
+        },
+        "b": {
+          "dataset": null,
+          "record": 5265064
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Wheeless Amy",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Wheeless Amy E",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "1557 NW 61st St",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "1557 NW 61st St",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5067475
+        },
+        "b": {
+          "dataset": null,
+          "record": 5170330
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YAMADA KOBI",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YAMADA KOBI",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "119 NW 40TH AT",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "119 NW 40TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 11,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2369449
+        },
+        "b": {
+          "dataset": null,
+          "record": 429739
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YAMADA KOBI",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YAMADA KOBI F",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "119 NW 40TH AT",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "119 NW 40TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2369449
+        },
+        "b": {
+          "dataset": null,
+          "record": 3242451
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YEATTS FRANCES",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YEATTS FRANCES",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6012  3RD AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6012 3RD AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 12,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2320332
+        },
+        "b": {
+          "dataset": null,
+          "record": 741480
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YEATTS FRANCES",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YEATTS FRANCES",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6012  3RD AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6012 3RD NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2320332
+        },
+        "b": {
+          "dataset": null,
+          "record": 1602718
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG JOHN A",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG JOHN A",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "162 NW   62ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 102826
+        },
+        "b": {
+          "dataset": null,
+          "record": 251544
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG KAREN S.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG KAREN S",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "4418 BAKER AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "4418 BAKER AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 1579555
+        },
+        "b": {
+          "dataset": null,
+          "record": 302972
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGUERITE L",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4810053
+        },
+        "b": {
+          "dataset": null,
+          "record": 253251
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND STREET",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4644805
+        },
+        "b": {
+          "dataset": null,
+          "record": 4810053
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGUERITE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGUERITE L",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 274338
+        },
+        "b": {
+          "dataset": null,
+          "record": 253251
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGUERITE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG MARGE",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "162 NW 62ND ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 274338
+        },
+        "b": {
+          "dataset": null,
+          "record": 4810053
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNG SAMUEL J",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNG SAMUEL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2830 NW 59TH ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2830 NW 59TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5188108
+        },
+        "b": {
+          "dataset": null,
+          "record": 2758325
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER B.",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER B",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 10,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 253690
+        },
+        "b": {
+          "dataset": null,
+          "record": 675309
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER BILL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER B",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 10,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2210026
+        },
+        "b": {
+          "dataset": null,
+          "record": 675309
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER BILL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YOUNGMAN JENNIFER B.",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6314 28TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2210026
+        },
+        "b": {
+          "dataset": null,
+          "record": 253690
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 7,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 250222
+        },
+        "b": {
+          "dataset": null,
+          "record": 171287
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611   17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 5,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 250222
+        },
+        "b": {
+          "dataset": null,
+          "record": 111941
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611   17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 250222
+        },
+        "b": {
+          "dataset": null,
+          "record": 105379
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611  17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 250222
+        },
+        "b": {
+          "dataset": null,
+          "record": 4516766
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 7,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 795103
+        },
+        "b": {
+          "dataset": null,
+          "record": 171287
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611   17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 5,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 795103
+        },
+        "b": {
+          "dataset": null,
+          "record": 111941
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611   17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 795103
+        },
+        "b": {
+          "dataset": null,
+          "record": 105379
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611  17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 795103
+        },
+        "b": {
+          "dataset": null,
+          "record": 4516766
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "YUCHASZ TONY",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "YUCHASZ ANTHONY",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5611 17TH AVENUE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 795103
+        },
+        "b": {
+          "dataset": null,
+          "record": 250222
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Yeh Jennifer J",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Yeh Jennifer",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2452 NW 57th St",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2452 NW 57th St",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5061448
+        },
+        "b": {
+          "dataset": null,
+          "record": 5061401
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "Yovanovich Jennifer",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "Yovanovich Jay",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6314 28th Ave NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6314 28th Ave NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5179405
+        },
+        "b": {
+          "dataset": null,
+          "record": 5179404
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZAK MICHAEL",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZAK MICHAEL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "2429B NW 60TH ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "2429B NORTHWEST 60TH STREET",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2856178
+        },
+        "b": {
+          "dataset": null,
+          "record": 2676610
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZELENZ ANNA",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZELENZ ANNA C",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "820 NW 64TH ST",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "820 NW 64TH ST",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 3,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 5221724
+        },
+        "b": {
+          "dataset": null,
+          "record": 5221717
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZEMKE DEBBIE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZEMKE DEBORAH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 389820
+        },
+        "b": {
+          "dataset": null,
+          "record": 1015019
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZEMKE DEBORAH",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZEMKE DEBORAH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVENUE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2241760
+        },
+        "b": {
+          "dataset": null,
+          "record": 1015019
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZEMKE DON",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZEMKE DONALD W",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 7,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 385591
+        },
+        "b": {
+          "dataset": null,
+          "record": 2128236
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZEMKE DON",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZEMKE DEBORAH",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 385591
+        },
+        "b": {
+          "dataset": null,
+          "record": 1015019
+        }
+      },
+      "label": 0,
+      "label_str": "Distinct"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZEMKE DON",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZEMKE DONALD",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5206 1ST AVE NW",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 2,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 385591
+        },
+        "b": {
+          "dataset": null,
+          "record": 393282
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZIMMERMAN MARGUERITE",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZIMMERMAN MARGUERITE K",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW, UNIT 511",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5650 24TH AVE NW, UNIT 511",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 4,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4578406
+        },
+        "b": {
+          "dataset": null,
+          "record": 3640308
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZUANICH ROBERT",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZUANICH ROBERT",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "6010 14TH AVE NW, APT 4",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "6010 14TH AVE NW APT 4",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 2567210
+        },
+        "b": {
+          "dataset": null,
+          "record": 3596903
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL D",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST # B109",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST # B109",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 3687241
+        },
+        "b": {
+          "dataset": null,
+          "record": 2777625
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL D",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST, APT B109",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST # B109",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4189914
+        },
+        "b": {
+          "dataset": null,
+          "record": 2777625
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL D",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZUEGER SHERYL D",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST, APT B109",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "3244 NW 54TH ST # B109",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4189914
+        },
+        "b": {
+          "dataset": null,
+          "record": 3687241
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    },
+    {
+      "fields": [
+        {
+          "a": {
+            "name": "contributor_name",
+            "value": "ZUMETA WILLIAM",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_name",
+            "value": "ZUMETA BILL",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "contributor_address",
+            "value": "5609 2ND AVE NW, APT 2",
+            "type": "String"
+          },
+          "b": {
+            "name": "contributor_address",
+            "value": "5609 2ND AVE NW, APT 2",
+            "type": "String"
+          },
+          "similarity": null
+        },
+        {
+          "a": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "b": {
+            "name": "num",
+            "value": 1,
+            "type": "String"
+          },
+          "similarity": null
+        }
+      ],
+      "identifiers": {
+        "a": {
+          "dataset": null,
+          "record": 4541172
+        },
+        "b": {
+          "dataset": null,
+          "record": 4541519
+        }
+      },
+      "label": 1,
+      "label_str": "Match"
+    }
+  ]
+}

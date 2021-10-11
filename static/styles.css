@@ -55,3 +55,10 @@ td.bar {
 .progress-bar.contributor-code-8 {
     background-color: #495057;
 }
+
+.link {
+    font-size: smaller;
+    text-decoration: none;
+    color: transparent;
+    text-shadow: 0 0 0 lightgray;
+}

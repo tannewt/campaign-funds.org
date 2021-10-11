@@ -40,7 +40,6 @@
         <td>
             {{ macros.contributor(row["code_id"], row["contributor_name"], row["contributor_occupation"], row["contributor_employer_name"]) }}
             <a href="/raw/contributions/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a>
-            }
         </td>
     </tr>
 {% endfor %}

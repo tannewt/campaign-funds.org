@@ -1,0 +1,97 @@
+{% extends "cf_base.html" %}
+{% import 'macros.html' as macros %}
+{% block title %}2021 November 2nd General{% endblock %}
+{% macro filer_summary(filer_id, pac_id=None) %}
+{% set filer = sql("select filer_name, filer_id, filer_type_id from registrations, registrations_filer_name where filer_name_id = registrations_filer_name.id and election_year = 2021 and filer_id = ? LIMIT 1", [filer_id])[0] %}
+{% set totals = sql("select sum(amount) as total from contributions where election_year = 2021 and filer_id = ?", [filer_id])[0] %}
+{% set contributors = sql("select count(distinct contributor_name) as count from contributions where election_year = 2021 and filer_id = ?", [filer_id])[0] %}
+    <div class="card">
+        <div class="card-body">
+        <h5 class="card-title">{{ ["", "📢","🧑"][filer["filer_type_id"]] }} {{ filer["filer_name"] }} <a class="link" name="{{filer_id}}" href="#{{filer_id}}">🔗</a></h5>
+        <table>
+            <tr>
+                <td>Total contributions</td>
+                <td class="dollars font-monospace">
+        {% if totals["total"] %}{{ "${:,.2f}".format(totals["total"]) }}
+       {% else %}{{ "${:,.2f}".format(0) }}
+       {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>Total contributors</td>
+                <td class="dollars font-monospace">
+        {% if contributors["count"] %}{{ contributors["count"] }}{% else %}0{% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>Average total contribution</td>
+                <td class="dollars font-monospace">
+        {% if totals["total"] %}{{ "${:,.2f}".format(totals["total"] / contributors["count"]) }}{% else %}n/a{% endif %}
+                </td>
+            </tr>
+        </table>
+       <a href="/filer/{{ filer_id }}" class="card-link">Full info</a>
+        </div>
+    </div>
+{% endmacro %}
+
+{% set organization = {
+    "King County": {
+        "Executive": ("CONSJ  072", "NGUYJ  102"),
+        "Council District No. 1": ("CAVES--117", "DEMBR  101"),
+        "Council District No. 3": ("LAMBK  052", "PERRS--027"),
+        "Council District No. 5": ("OLOWS--108", "UPTHD  198"),
+        "Council District No. 7": ("VONRP  023", "TORGD--042"),
+        "Council District No. 9": ("DUNNR  059", "VAN K  057"),
+    },
+    "City of Seattle": {
+        "Mayor": ("HARRB  101", "BRHASE 188", "GONZM  102", "ESWFE--109"),
+        "City Attorney": ("THOMN--101", "SATTA  115"),
+        "Council Position No. 8": ("MOSQT  102", "WILSK--103"),
+        "Council Position No. 9": ("OLIVN  102", "NELSS  104"),
+    },
+    "Port of Seattle": {
+        "Commissioner Position No. 1": ("SIGLN  122", "CALKR  104"),
+        "Commissioner Position No. 3": ("BOWMS  124", "MOHAH--168"),
+        "Commissioner Position No. 4": ("STEIP  104", "HASET--104"),
+    },
+    "Seattle School District No. 1": {
+        "Director District No. 4": ("MARIV--119", "RIVEL--134"),
+        "Director District No. 5": ("SARJM--102", "HARDD  102"),
+        "Director District No. 7": ("HERSB--890",),
+    }
+}
+%}
+
+{% block body %}
+<div class="container-sm">
+
+<h1>2021 November 2nd General Election</h1>
+<ul>
+{% for jurisdiction, races in organization.items() %}
+<li><a href="#{{jurisdiction}}">{{ jurisdiction }}</a></li>
+<ul>
+{% for position, filers in races.items() %}
+<li><a href="#{{jurisdiction}}-{{position}}">{{ position }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+</ul>
+
+{% for jurisdiction, races in organization.items() %}
+<h2>{{ jurisdiction }}<a class="link" name="{{jurisdiction}}" href="#{{jurisdiction}}">🔗</a></h2>
+{% for position, filers in races.items() %}
+<h3>{{ position }}<a class="link" name="{{jurisdiction}}-{{position}}" href="#{{jurisdiction}}-{{position}}">🔗</a></h3>
+<div class="row w-l-50 mb-4">
+{% for filer_id in filers %}
+    <div class="col-sm-6 col-l-3 mb-3">
+    {{ filer_summary(filer_id) }}
+    </div>
+{% endfor %}
+</div>
+{% endfor %}
+{% endfor %}
+
+</div>
+
+{% endblock %}

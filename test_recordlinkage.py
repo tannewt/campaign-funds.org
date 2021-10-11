@@ -49,34 +49,40 @@ if not golden_data:
     groups = connected.compute(matches.index)
 else:
     print("train!")
-    classifier = recordlinkage.NaiveBayesClassifier()
+    classifier = recordlinkage.SVMClassifier()
     sample = None
     matches = None
     for path in golden_data:
         print("loading", path)
         results = recordlinkage.read_annotation_file(path)
         if sample is None:
-            matches = results.links
+            matches = results.links.to_frame()
             sample = results.distinct
-            sample = pandas.concat(results.distinct, results.links)
+            sample = pandas.concat((features.loc[results.distinct], features.loc[results.links]))
             print(sample)
-        # else:
+        else:
+            sample = pandas.concat((sample, features.loc[results.distinct], features.loc[results.links]))
+            matches = pandas.concat((matches, results.links.to_frame()))
         #     matches.append(results.links)
         #     sample.append(results.distinct)
     print(sample)
-    print(features.loc[sample])
-    # classifier.fit(features.loc[sample], matches)
-    # r = classifier.predict(features)
-    # print(r)
+    matches = pandas.MultiIndex.from_frame(matches)
+    print(matches)
+    classifier.fit(sample, matches)
+    r = classifier.predict(features)
+    print("results")
+    print(r)
+    connected = recordlinkage.ConnectedComponents()
+    groups = connected.compute(r)
 
 matched = set()
 for g in groups:
     f = g.to_frame()
     s = set(f[0].unique())
     s.update(f[1].unique())
-    print(s)
-    print(df.loc[list(s)])
-    print()
+    # print(s)
+    # print(df.loc[list(s)])
+    # print()
     matched.update(s)
 
 print(len(groups), "groups from", len(matched), "matched records")

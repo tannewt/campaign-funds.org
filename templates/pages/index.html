@@ -2,7 +2,12 @@
 {% import 'macros.html' as macros %}
 {% block title %}Campaign Funds{% endblock %}
 {% block body %}
-<h2>Top fundraisers for 2021 elections</h2>
+<h1>CampaignFunds.org</h1>
+<p>Welcome to <a href="https://campaignfunds.org">campaignfunds.org</a>. Our goal is to make it easier to browse public campaign contribution and expenditure records. Data is from <a href="https://www.pdc.wa.gov/">the Washington PDC</a> and is updated periodically. Contact <a href="https://twitter.com/tannewt">@tannewt on Twitter</a> or <a href="https://github.com/tannewt/campaign-funds.org">GitHub</a> for more info.</p>
+<h2>Upcoming Election</h2>
+<p>Click <a href="/election/20211102">here</a> to compare candidates for the <a href="/election/20211102">November 2nd General Election</a>.</p>
+<h2>Overall</h2>
+<h3>Top fundraisers for 2021 elections</h3>
 <table>
 {% set ns = namespace(top_total=0) %}
 {% for row in sql("select type_id, filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name WHERE filer_name_id = contributions_filer_name.id AND election_year = 2021 group by filer_id order by total DESC limit 20") %}

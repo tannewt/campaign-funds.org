@@ -11,12 +11,13 @@ build = pathlib.Path("build")
 source_csvs = {
     "contributions.csv": "https://data.wa.gov/api/views/kv7h-kjye/rows.csv?accessType=DOWNLOAD",
     "registrations.csv": "https://data.wa.gov/api/views/iz23-7xxj/rows.csv?accessType=DOWNLOAD",
-    "expenditures.csv": "https://data.wa.gov/api/views/tijg-9zyp/rows.csv?accessType=DOWNLOAD"
+    "expenditures.csv": "https://data.wa.gov/api/views/tijg-9zyp/rows.csv?accessType=DOWNLOAD",
+    "seattle.csv": "http://web6.seattle.gov/ethics/elections/returnList.ashx?yearElection=2021&strWhichList=alltransactions&strFormat=csv"
 }
 
 for source in source_csvs:
     if not (build / source).exists():
-        print(source)
+        print("Downloading", source)
         urllib.request.urlretrieve(source_csvs[source], build / source)
 
 # post-process
@@ -51,7 +52,7 @@ def parse_date(value):
 
 for filename in source_csvs:
     path = build / filename
-    print(filename)
+    print("Processing", filename)
     with path.open(newline='') as f:
         reader = csv.reader(f)
         row_count = 0
@@ -101,6 +102,10 @@ for filename in source_csvs:
                             row[k] = parse_date(row[k])
                         elif k in EXTRACT_ROWS:
                             row[k] = get_id(table, k, row[k])
+                        elif row[k] is not None:
+                            row[k] = row[k].upper()
+                            if "address" in k:
+                                row[k] = row[k].replace(".", "")
 
                         # print(k, repr(row[k]))
                     except ValueError as e:

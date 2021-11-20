@@ -12,6 +12,9 @@ def asgi_wrapper(datasette):
                 if scope["path"] == "/" and scope["raw_path"] == b"/":
                     scope["path"] = "/index"
                     scope["raw_path"] = b"/index"
+                elif scope["path"] == "/robots.txt" and scope["raw_path"] == b"/robots.txt":
+                    scope["path"] = "/robots"
+                    scope["raw_path"] = b"robots"
                 else:
                     # Move the normal index to /db/
                     if scope["path"].startswith("/db"):

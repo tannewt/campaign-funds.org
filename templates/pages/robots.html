@@ -1,0 +1,32 @@
+{{ custom_header("content-type", "text/plain") -}}
+User-agent: *
+
+Allow: /
+
+# Top fundraisers for 2022
+{%- for row in sql("select filer_id, sum(amount) as total from contributions WHERE election_year = 2022 group by filer_id order by total DESC limit 20") %}
+Allow: /filer/{{ row['filer_id'] -}}
+{% endfor %}
+
+# Top Contributors for 2022
+{%- for row in sql("select contributor_name, total_amount from contribution_totals where election_year = 2022 order by total_amount desc limit 20") %}
+Allow: /donor/{{ row['contributor_name'] -}}
+{% endfor %}
+
+# 2021 election
+Allow: /election/20211102
+
+# Top fundraisers for 2021 elections
+{%- for row in sql("select filer_id, sum(amount) as total from contributions WHERE election_year = 2021 group by filer_id order by total DESC limit 20") %}
+Allow: /filer/{{ row['filer_id'] -}}
+{% endfor %}
+
+# Top Contributors for 2021
+{%- for row in sql("select contributor_name, total_amount from contribution_totals where election_year = 2021 order by total_amount desc limit 20") %}
+Allow: /donor/{{ row['contributor_name'] -}}
+{% endfor %}
+
+Disallow: /raw/
+Disallow: /filer/
+Disallow: /donor/
+Disallow: /employer/

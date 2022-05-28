@@ -1,6 +1,6 @@
-{%- macro contributor(code, name, occupation=None, employer=None) -%}
+{%- macro contributor(code, name, vip=False, occupation=None, employer=None) -%}
 {{ ["","🧑","❓","🏢","🔨","📢","🎈","⚖️","🤑"][code] | default("?")}}
-<a href="/donor/{{ name }}">{{ name }}</a> 
+{%if vip %}<a href="/donor/{{ name }}">{{ name }}</a>{% else %}{{ name }}{% endif %} 
             {% if code == 1 and occupation %}
             - {{ occupation }}
             {% if employer %}at <a href="/employer/{{ employer }}">{{ employer }}</a>

@@ -3,22 +3,17 @@
 {% block title %}{{ filer_id }}{% endblock %}
 
 {% block body %}
-{{ custom_header("cache-control", "max-age=3600") }}
-{% for row in sql("select election_year, filer_type_id, filer_name, office, jurisdiction, political_committee_type, position, url from registrations, registrations_filer_name where filer_name_id = registrations_filer_name.id AND filer_id = ? order by election_year desc limit 1", [filer_id]) %}
-    <h1>{{ ["","📢","🧑"][row["filer_type_id"]] | default("?")}}{{ row["filer_name"]}}</h1>
+<h1>{{ ["","📢","🧑"][info["filer_type_id"]] | default("?")}}{{ info["filer_name"]}}</h1>
 
-    <p>Committee Type: {{ row["political_committee_type"] }}</p>
-    <p>{{ row["position"] }} {{ row["office"] }} {{ row["jurisdiction"] }}</p>
-    <a href="{{ row["url"] }}">Registration</a> | 
-{% endfor %}
-
-<a href="/raw/registrations?_sort=rowid&filer_id__exact={{ filer_id }}">All Registrations</a>
+<p>Committee Type: {{ info["political_committee_type"] }}</p>
+<p>{{ info["position"] }} {{ info["office"] }} {{ info["jurisdiction"] }}</p>
+<a href="{{ info["url"] }}">Registration</a>
 
 <h2>Top Contributors since 2009</h2>
 <table>
-{% for row in sql("select contributor_name, code_id, SUM(amount) as total from contributions where filer_id = ? group by contributor_name order by total desc limit 10", [filer_id]) %}
+{% for row in contributors %}
     <tr>
-        <td class="name">{{ macros.contributor(row["code_id"], row["contributor_name"]) }}</td>
+        <td class="name">{{ macros.contributor(row["code_id"], row["contributor_name"], row["vip"]) }}</td>
         <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
     </tr>
 {% endfor %}
@@ -26,7 +21,7 @@
 
 <h2>Most recent contributions</h2>
 <table>
-{% for row in sql("select rowid, receipt_date, cash_or_in_kind_id, contributor_name, contributor_occupation, contributor_employer_name, amount, url, code_id from contributions where filer_id = ? order by receipt_date DESC limit 20", [filer_id]) %}
+{% for row in contributions %}
     <tr>
         <td>{{ row["receipt_date"] }}</td>
         <td class="dollars font-monospace">{{ "${:,.2f}".format(row["amount"]) }}</td>
@@ -38,23 +33,21 @@
             {% endif %}
         </td>
         <td>
-            {{ macros.contributor(row["code_id"], row["contributor_name"], row["contributor_occupation"], row["contributor_employer_name"]) }}
-            <a href="/raw/contributions/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a>
+            {{ macros.contributor(row["code_id"], row["contributor_name"], row["vip"], row["contributor_occupation"], row["contributor_employer_name"]) }}
+            <a href="{{ row["url"] }}">Filing</a>
         </td>
     </tr>
 {% endfor %}
 </table>
-<a href="/raw/contributions?filer_id__exact={{ filer_id }}&_sort_desc=receipt_date">All Contributions</a>
 
 <h2>Most recent expenditures</h2>
 <table>
-{% for row in sql("select rowid, expenditure_date, recipient_name, description, amount, url from expenditures where filer_id = ? order by expenditure_date DESC limit 20", [filer_id]) %}
+{% for row in expenditures %}
     <tr>
         <td>{{ row["expenditure_date"] }}</td>
         <td class="dollars font-monospace">{{ "${:,.2f}".format(row["amount"]) }}</td>
         <td>{{ row["recipient_name"] }} - {{ row["description"] }} <a href="/raw/expenditures/{{ row["rowid"] }}">Full</a> | <a href="{{ row["url"] }}">Filing</a></td></tr>
 {% endfor %}
 </table>
-<a href="/raw/expenditures?filer_id__exact={{ filer_id }}&_sort_desc=expenditure_date">All Expenditures</a>
 
 {% endblock %}

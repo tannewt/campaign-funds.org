@@ -4,7 +4,7 @@
 {% block body %}
 <h2>Top benefactors since 2009</h2>
 <table>
-{% for row in sql("select type_id, filer_name, filer_id, sum(amount) as total from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_name = ? group by filer_id order by total DESC limit 10", [donor_name]) %}
+{% for row in top_filers %}
     <tr>
         <td>{{ macros.filer(row["type_id"], row["filer_id"], row["filer_name"]) }}</td>
         <td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td>
@@ -14,15 +14,14 @@
 
 <h2>Total donations by year</h2>
 <table>
-{% for row in sql("select strftime('%Y', receipt_date) as year, SUM(amount)
-as total from contributions where contributor_name = ? group by year order by year DESC limit 50", [donor_name]) %}
+{% for row in year_totals %}
     <tr><td>{{ row["year"] }}</td><td class="dollars font-monospace">{{ "${:,.2f}".format(row["total"]) }}</td></tr>
 {% endfor %}
 </table>
 
 <h2>Most recent donations</h2>
 <table>
-{% for row in sql("select receipt_date, type_id, filer_name, filer_id, amount from contributions, contributions_filer_name where filer_name_id = contributions_filer_name.id AND contributor_name = ? order by receipt_date DESC limit 20", [donor_name]) %}
+{% for row in recent_donations %}
     <tr>
         <td>{{ row["receipt_date"] }}</td>
         <td>{{ macros.filer(row["type_id"], row["filer_id"], row["filer_name"]) }}</td>
